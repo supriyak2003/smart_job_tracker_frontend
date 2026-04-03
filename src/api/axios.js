@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Use environment variable or default relative path for proxy
-const API_URL = '/api';
+// Use the production backend URL on Render
+const API_URL = 'https://smart-job-tracker-backend-e5tm.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_URL,
